@@ -33,9 +33,9 @@ Where traditional institutions rely on trust in people, BINST relies on **trust 
 
 BINST builds on two foundational layers:
 
-### 1. Process Layer — Inherited from [DeBu Studio](https://github.com/diegobianqui/DeBu_studio)
+### 1. Process Layer — Inherited and replicated in a bitcoin rollup (TBD) from [DeBu Studio](https://github.com/diegobianqui/DeBu_studio) for further evolution.
 
-DeBu Studio is a blockchain-based platform for designing, deploying, and executing standardized processes on-chain. BINST reuses and extends this framework:
+DeBu Studio is a blockchain-based platform for designing, deploying, and executing standardized processes on-chain that was presented during the ETHGlobal 2025 hackathon in Buenos Aires. BINST reuses and extends this framework:
 
 - **Process Templates** — Immutable blueprints defining multi-step workflows (forms, approvals, payments, etc.) deployed as smart contracts
 - **Process Instances** — Running executions of a template with full state tracking, actor recording, and timestamps
