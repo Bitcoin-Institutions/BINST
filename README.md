@@ -2,8 +2,6 @@
 
 **Decentralized Institutional Design & Operations on Bitcoin**
 
-> *Institutions are the main vehicle of power under the current world order. BINST aims to redesign them — transparently, immutably, and protected by Bitcoin's censorship resistance.*
-
 ---
 
 ## 🎯 Vision
