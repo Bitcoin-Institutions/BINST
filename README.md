@@ -55,7 +55,7 @@ BINST adds the **institutional wrapper** that DeBu lacks:
 
 ### BitVM — Turing-Complete Verification on Bitcoin
 
-[BitVM](https://bitvm.org/) enables arbitrary computation to be **verified** on Bitcoin without any changes to the network's consensus rules. Rather than executing computations on Bitcoin, they are merely verified — similarly to optimistic rollups. A prover makes a claim, and if false, anyone can perform a **fraud proof** and punish the prover.
+[BitVM](https://bitvm.org/) enables arbitrary computation to be **verified** on Bitcoin without any changes to the network's consensus rules. Rather than executing computations on Bitcoin, they are merely verified — similarly to optimistic rollups. A prover makes a claim, and if false, anyone can perform a **fraud proof** and punish the prover. BitVM was created by [ZeroSync](https://zerosync.org/), a Swiss nonprofit organization spearheading the application of proof systems to Bitcoin. ZeroSync also founded the [BitVM Alliance](https://bitvm.org/#about-bitvm-alliance), uniting Bitcoin L2 companies to implement the BitVM standard.
 
 - **BitVM2** — Implements a Groth16 SNARK verifier executable via the optimistic BitVM paradigm on Bitcoin. Enables trust-minimized Bitcoin bridges with ~1-of-N security (only one honest participant needed). On-chain cost: ~$15,000 per dispute; settlement: ~7.5 hours.
 - **BitVM3** — Dramatically reduces costs and latency. On-chain fees drop below **$50**, settlement happens in **the next block**, and transactions are standard-sized. This makes BitVM practical for individual users, not just high-value bridge operations. Enables **trustless BTC vaults** for lending, borrowing, and DeFi without counterparty risk.
@@ -121,7 +121,6 @@ Some institutional processes require confidentiality — personnel decisions, se
 | [Fiamma](https://x.com/fiamma_labs) | BitVM Alliance member; ZK verification infrastructure |
 | [GOAT Network](https://www.goat.network/) | BitVM Alliance member |
 | [{ ideal }](https://ideal.group/) | BitVM Alliance member |
-| [ZeroSync](https://x.com/ZeroSync_) | BitVM Alliance member; nonprofit umbrella for BitVM development |
 
 ### Phase 2 — Deploy on Available L2 (Short-Mid Term)
 
@@ -179,6 +178,7 @@ Join the [BitVM Telegram group](https://t.me/bitVM_chat) to connect with the bro
 |---|---|
 | BitVM Overview | [bitvm.org](https://bitvm.org/) |
 | BitVM Repository | [github.com/BitVM/BitVM](https://github.com/BitVM/BitVM) |
+| ZeroSync (BitVM Nonprofit) | [zerosync.org](https://zerosync.org/) |
 | BitVM Bridge (3rd Gen) | [Bitlayer article](https://blog.bitlayer.org/introducing_bitvm_bridge/) |
 | BitVM3 Advances | [L2IV Research](https://l2ivresearch.substack.com/p/the-power-of-bitvm3) |
 | Emulated vs Native Covenants | [ZK Security article](https://blog.zksecurity.xyz/posts/bitvm/) |
