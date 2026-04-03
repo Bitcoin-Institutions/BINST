@@ -122,7 +122,7 @@ The [BINST Pilot](https://github.com/Bitcoin-Institutions/binst-pilot) is the fi
 | `inscribe-binst.ts` | Creates BINST inscriptions on Bitcoin testnet4 |
 | `bitcoin-awareness.ts` | L2 contracts reading Bitcoin state via Citrea's light client |
 | `finality-monitor.ts` | Monitors Bitcoin finality for L2 transactions |
-| `taproot-vault.ts` | Tapscript vault with timelocked recovery paths |
+| `taproot-vault.ts` | ~~Tapscript vault~~ **Deprecated** — replaced by `binst-decoder::vault` (Rust miniscript) |
 | `test-protocol.ts` | Full protocol deployment and testing |
 
 **`binst` Metaprotocol Schema**: A formal JSON schema for the `binst` inscription protocol, with entity types for institutions, process templates, instances, and step executions.
